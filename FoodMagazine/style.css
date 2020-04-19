@@ -1,0 +1,55 @@
+body {
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size:1.1em;
+}
+
+.header {
+    font-size: 40px;
+    display: grid;
+    margin-bottom: 40px;
+    text-align: center;
+    color: #F17647;
+
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: max-content;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+.article {
+    background-color:white;
+    padding:10px;    
+    min-height:100px;
+    cursor: pointer;
+}
+
+.favorite {
+    background-color: yellow;
+    background-image:url("star.png");
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+.picture {
+    background-image: url("meal.jpg");
+    height:200px;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center;
+
+}
+
+.btn-fav, .btn-detail {
+    background-color: #F17647;
+    color: white;
+    text-align: center;
+    height: auto;
+    font-size: 25px;
+    margin-top: 10px;
+    padding: 10px;
+}
